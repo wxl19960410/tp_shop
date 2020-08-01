@@ -1,0 +1,104 @@
+{
+  "uid" : "23327d041f2d398b",
+  "name" : "test_101_110[全部输入，输入验证码不正确]",
+  "fullName" : "cases.登录.test_login.Test_login#test_101_110",
+  "historyId" : "187ffd34cd742ff10cb44bbc5b8438cb",
+  "time" : {
+    "start" : 1596270238419,
+    "stop" : 1596270269252,
+    "duration" : 30833
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1596270238416,
+      "stop" : 1596270238416,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1596270269261,
+      "stop" : 1596270271849,
+      "duration" : 2588
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录失败测试"
+  }, {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.登录"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "PC-20180809BGFX"
+  }, {
+    "name" : "thread",
+    "value" : "17008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.登录.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expectedtext",
+    "value" : "'验证码错误'"
+  }, {
+    "name" : "password",
+    "value" : "'123456'"
+  }, {
+    "name" : "username",
+    "value" : "'17854225747'"
+  }, {
+    "name" : "verify_code",
+    "value" : "'1234'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23327d041f2d398b.json",
+  "parameterValues" : [ "'验证码错误'", "'123456'", "'17854225747'", "'1234'" ]
+}

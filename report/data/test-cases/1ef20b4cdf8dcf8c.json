@@ -1,0 +1,101 @@
+{
+  "uid" : "1ef20b4cdf8dcf8c",
+  "name" : "手机号输入10位",
+  "fullName" : "cases.注册.test_register.Test_register#test_register_201_208",
+  "historyId" : "73af30e9d5d74be7a4648b181058a6fe",
+  "time" : {
+    "start" : 1596269848595,
+    "stop" : 1596269860192,
+    "duration" : 11597
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1596269848576,
+      "stop" : 1596269848577,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1596269860204,
+      "stop" : 1596269862698,
+      "duration" : 2494
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册功能"
+  }, {
+    "name" : "story",
+    "value" : "注册失败检测"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.注册"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_register"
+  }, {
+    "name" : "host",
+    "value" : "PC-20180809BGFX"
+  }, {
+    "name" : "thread",
+    "value" : "17008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.注册.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expectedtext",
+    "value" : "'请用手机号或邮箱注册'"
+  }, {
+    "name" : "test_input",
+    "value" : "{'username': '1334567891', 'verify_code': '8888', 'password': '123456', 'password2': '123456', 'invite': '17854225747'}"
+  }, {
+    "name" : "title",
+    "value" : "'手机号输入10位'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ef20b4cdf8dcf8c.json",
+  "parameterValues" : [ "'请用手机号或邮箱注册'", "{'username': '1334567891', 'verify_code': '8888', 'password': '123456', 'password2': '123456', 'invite': '17854225747'}", "'手机号输入10位'" ]
+}

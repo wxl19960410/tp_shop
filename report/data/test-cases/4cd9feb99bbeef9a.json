@@ -1,0 +1,98 @@
+{
+  "uid" : "4cd9feb99bbeef9a",
+  "name" : "test_limit_306_307[num:0]",
+  "fullName" : "cases.购物车.test_numlimit.Test_numlimit#test_limit_306_307",
+  "historyId" : "9b777c25db14f28264591f8fff061380",
+  "time" : {
+    "start" : 1596270492759,
+    "stop" : 1596270523808,
+    "duration" : 31049
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1596270492759,
+      "stop" : 1596270492759,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1596270523813,
+      "stop" : 1596270526521,
+      "duration" : 2708
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "商品数量不满足要求"
+  }, {
+    "name" : "feature",
+    "value" : "测试单个商品的数量"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.购物车"
+  }, {
+    "name" : "suite",
+    "value" : "test_numlimit"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_numlimit"
+  }, {
+    "name" : "host",
+    "value" : "PC-20180809BGFX"
+  }, {
+    "name" : "thread",
+    "value" : "17008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.购物车.test_numlimit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expectedtxt",
+    "value" : "'商品数量必须大于0'"
+  }, {
+    "name" : "num",
+    "value" : "'0'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cd9feb99bbeef9a.json",
+  "parameterValues" : [ "'商品数量必须大于0'", "'0'" ]
+}

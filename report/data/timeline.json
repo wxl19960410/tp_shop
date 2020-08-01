@@ -1,0 +1,364 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-20180809BGFX",
+    "children" : [ {
+      "name" : "17008-MainThread",
+      "children" : [ {
+        "name" : "test_101_110[输入账号正确，密码验证码为空]",
+        "uid" : "4eccadfceec51dba",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270111343,
+          "stop" : 1596270134295,
+          "duration" : 22952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码不能为空!'", "None", "'17854225747'", "None" ]
+      }, {
+        "name" : "test_numlimit_301_305[num:1]",
+        "uid" : "136da090fb6a86ed",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270302847,
+          "stop" : 1596270334393,
+          "duration" : 31546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'添加收货地址'", "'1'" ]
+      }, {
+        "name" : "test_numlimit_301_305[num:200]",
+        "uid" : "2e8c15672b2ac4f6",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270413136,
+          "stop" : 1596270451096,
+          "duration" : 37960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'添加收货地址'", "'200'" ]
+      }, {
+        "name" : "手机号第一位不为1",
+        "uid" : "a6183aac3271291c",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596269876763,
+          "stop" : 1596269889916,
+          "duration" : 13153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请用手机号或邮箱注册'", "{'username': '23345678912', 'verify_code': '8888', 'password': '123456', 'password2': '123456', 'invite': '17854225747'}", "'手机号第一位不为1'" ]
+      }, {
+        "name" : "手机号输入12位",
+        "uid" : "d771086751c8dfc0",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596269862713,
+          "stop" : 1596269873915,
+          "duration" : 11202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请用手机号或邮箱注册'", "{'username': '133456789123', 'verify_code': '8888', 'password': '123456', 'password2': '123456', 'invite': '17854225747'}", "'手机号输入12位'" ]
+      }, {
+        "name" : "test_101_110[输入账号密码正确，验证码为空]",
+        "uid" : "4d6968f86f50a46a",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270163538,
+          "stop" : 1596270183199,
+          "duration" : 19661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证码不能为空!'", "'123456'", "'17854225747'", "None" ]
+      }, {
+        "name" : "test_101_110[全部输入，输入密码不正确]",
+        "uid" : "e6c9fdf1cbe6c9a9",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270210817,
+          "stop" : 1596270235578,
+          "duration" : 24761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码错误!'", "'12345'", "'17854225747'", "'8888'" ]
+      }, {
+        "name" : "test_101_110[输入账号密码都为空]",
+        "uid" : "b1ac9de46ffa3bab",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270060781,
+          "stop" : 1596270085853,
+          "duration" : 25072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名不能为空!'", "None", "None", "'8888'" ]
+      }, {
+        "name" : "验证码设置错误：1234",
+        "uid" : "295b12611dc2337e",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596269920413,
+          "stop" : 1596269939720,
+          "duration" : 19307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证码错误'", "{'username': '13345678912', 'verify_code': '1234', 'password': '123456', 'password2': '123456', 'invite': '17854225747'}", "'验证码设置错误：1234'" ]
+      }, {
+        "name" : "test_numlimit_301_305[num:199]",
+        "uid" : "34c02945fc405959",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270453747,
+          "stop" : 1596270489949,
+          "duration" : 36202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'添加收货地址'", "'199'" ]
+      }, {
+        "name" : "test_numlimit_301_305[num:2]",
+        "uid" : "ff9ea38e067b7129",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270337177,
+          "stop" : 1596270371354,
+          "duration" : 34177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'添加收货地址'", "'2'" ]
+      }, {
+        "name" : "第二次密码设置为：12345",
+        "uid" : "7b902524f89ec34d",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596269944494,
+          "stop" : 1596269956244,
+          "duration" : 11750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'两次输入密码不一致'", "{'username': '13345678912', 'verify_code': '8888', 'password': '123456', 'password2': '12345', 'invite': '17854225747'}", "'第二次密码设置为：12345'" ]
+      }, {
+        "name" : "手机号输入10位",
+        "uid" : "1ef20b4cdf8dcf8c",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596269848595,
+          "stop" : 1596269860192,
+          "duration" : 11597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请用手机号或邮箱注册'", "{'username': '1334567891', 'verify_code': '8888', 'password': '123456', 'password2': '123456', 'invite': '17854225747'}", "'手机号输入10位'" ]
+      }, {
+        "name" : "输入密码为5位",
+        "uid" : "a45e3dea16038eea",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596269906499,
+          "stop" : 1596269917637,
+          "duration" : 11138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码为6-16位大小写英文字母、数字或符号组合'", "{'username': '17854225750', 'verify_code': '8888', 'password': '12345', 'password2': '12345', 'invite': '17854225747'}", "'输入密码为5位'" ]
+      }, {
+        "name" : "输入已注册账号",
+        "uid" : "2ad83fed357160e0",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596269958652,
+          "stop" : 1596269970057,
+          "duration" : 11405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'账号已存在'", "{'username': '17854225747', 'verify_code': '8888', 'password': '123456', 'password2': '123456', 'invite': '17854225747'}", "'输入已注册账号'" ]
+      }, {
+        "name" : "test_101_110[输入账号验证码都为空]",
+        "uid" : "d08c904bdcde0f30",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270023739,
+          "stop" : 1596270043726,
+          "duration" : 19987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名不能为空!'", "'123456'", "None", "None" ]
+      }, {
+        "name" : "test_limit_306_307[num:0]",
+        "uid" : "4cd9feb99bbeef9a",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270492759,
+          "stop" : 1596270523808,
+          "duration" : 31049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'商品数量必须大于0'", "'0'" ]
+      }, {
+        "name" : "输入正确的账号密码验证码",
+        "uid" : "56c367f31138175e",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270271864,
+          "stop" : 1596270299951,
+          "duration" : 28087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_numlimit_301_305[num:100]",
+        "uid" : "4e7a4d7881530098",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270374194,
+          "stop" : 1596270410016,
+          "duration" : 35822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'添加收货地址'", "'100'" ]
+      }, {
+        "name" : "使用规定的格式正确注册",
+        "uid" : "c75d7ef4ce03d37",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596269972838,
+          "stop" : 1596269996657,
+          "duration" : 23819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_101_110[全部输入，输入账号不正确]",
+        "uid" : "303bd4c68518a3f0",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270186001,
+          "stop" : 1596270207939,
+          "duration" : 21938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'账号不存在!'", "'123456'", "'17854225746'", "'8888'" ]
+      }, {
+        "name" : "test_101_110[全部输入，输入验证码不正确]",
+        "uid" : "23327d041f2d398b",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270238419,
+          "stop" : 1596270269252,
+          "duration" : 30833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证码错误'", "'123456'", "'17854225747'", "'1234'" ]
+      }, {
+        "name" : "test_101_110[输入账号验证码正确，密码为空]",
+        "uid" : "dbc46dce5f989001",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270139323,
+          "stop" : 1596270160230,
+          "duration" : 20907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码不能为空!'", "None", "'17854225747'", "'8888'" ]
+      }, {
+        "name" : "手机号第二位为2",
+        "uid" : "c01c94be585539d4",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596269892337,
+          "stop" : 1596269903692,
+          "duration" : 11355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请用手机号或邮箱注册'", "{'username': '12345678912', 'verify_code': '8888', 'password': '123456', 'password2': '123456', 'invite': '17854225747'}", "'手机号第二位为2'" ]
+      }, {
+        "name" : "test_limit_306_307[num:201]",
+        "uid" : "f7602d6f8fff349d",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596270526529,
+          "stop" : 1596270563620,
+          "duration" : 37091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'购买商品数量不能大于200'", "'201'" ]
+      }, {
+        "name" : "test_101_110[输入账号密码验证码都为空]",
+        "uid" : "752260d3022c7b1a",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270000987,
+          "stop" : 1596270020925,
+          "duration" : 19938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名不能为空!'", "None", "None", "None" ]
+      }, {
+        "name" : "test_101_110[输入账号为空]",
+        "uid" : "52cbe12dba53f125",
+        "parentUid" : "e4648406ffa2bcf970b21adcea801926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596270088999,
+          "stop" : 1596270108650,
+          "duration" : 19651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名不能为空!'", "'123456'", "None", "'8888'" ]
+      } ],
+      "uid" : "e4648406ffa2bcf970b21adcea801926"
+    } ],
+    "uid" : "27ceec4f34434e295df2282ca6e8b548"
+  } ]
+}

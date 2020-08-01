@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "f59e1053cc474ae26e20742309de75bd",
+    "name" : "cases.注册",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "75db126770fb22d5d092b55b9e7e1c7f",
+    "name" : "cases.购物车",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "087252c78f9ffbaf4d2c32e9c4bb2cac",
+    "name" : "cases.登录",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  } ]
+}

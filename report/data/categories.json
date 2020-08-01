@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '注册成功' == '密码为6-16位大小写英文字母、数字或符号组合'\n  - 密码为6-16位大小写英文字母、数字或符号组合\n  + 注册成功",
+      "children" : [ {
+        "name" : "输入密码为5位",
+        "uid" : "a45e3dea16038eea",
+        "parentUid" : "a7dc0c70a6c8823d186ec07f457c5bd7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596269906499,
+          "stop" : 1596269917637,
+          "duration" : 11138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码为6-16位大小写英文字母、数字或符号组合'", "{'username': '17854225750', 'verify_code': '8888', 'password': '12345', 'password2': '12345', 'invite': '17854225747'}", "'输入密码为5位'" ]
+      } ],
+      "uid" : "a7dc0c70a6c8823d186ec07f457c5bd7"
+    }, {
+      "name" : "AssertionError: assert '' == '购买商品数量不能大于200'\n  - 购买商品数量不能大于200",
+      "children" : [ {
+        "name" : "test_limit_306_307[num:201]",
+        "uid" : "f7602d6f8fff349d",
+        "parentUid" : "5728d6ff8970e82c05725d6cbbecf5a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596270526529,
+          "stop" : 1596270563620,
+          "duration" : 37091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'购买商品数量不能大于200'", "'201'" ]
+      } ],
+      "uid" : "5728d6ff8970e82c05725d6cbbecf5a3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[class=\"layui-layer-content layui-layer-padding\"]\"}\n  (Session info: chrome=77.0.3865.120)",
+      "children" : [ {
+        "name" : "验证码设置错误：1234",
+        "uid" : "295b12611dc2337e",
+        "parentUid" : "c6f28554e4fb8f91e32845466e0a888f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596269920413,
+          "stop" : 1596269939720,
+          "duration" : 19307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证码错误'", "{'username': '13345678912', 'verify_code': '1234', 'password': '123456', 'password2': '123456', 'invite': '17854225747'}", "'验证码设置错误：1234'" ]
+      } ],
+      "uid" : "c6f28554e4fb8f91e32845466e0a888f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

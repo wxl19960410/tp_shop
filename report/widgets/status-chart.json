@@ -1,0 +1,271 @@
+[ {
+  "uid" : "f7602d6f8fff349d",
+  "name" : "test_limit_306_307[num:201]",
+  "time" : {
+    "start" : 1596270526529,
+    "stop" : 1596270563620,
+    "duration" : 37091
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "136da090fb6a86ed",
+  "name" : "test_numlimit_301_305[num:1]",
+  "time" : {
+    "start" : 1596270302847,
+    "stop" : 1596270334393,
+    "duration" : 31546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e8c15672b2ac4f6",
+  "name" : "test_numlimit_301_305[num:200]",
+  "time" : {
+    "start" : 1596270413136,
+    "stop" : 1596270451096,
+    "duration" : 37960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34c02945fc405959",
+  "name" : "test_numlimit_301_305[num:199]",
+  "time" : {
+    "start" : 1596270453747,
+    "stop" : 1596270489949,
+    "duration" : 36202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b902524f89ec34d",
+  "name" : "第二次密码设置为：12345",
+  "time" : {
+    "start" : 1596269944494,
+    "stop" : 1596269956244,
+    "duration" : 11750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbc46dce5f989001",
+  "name" : "test_101_110[输入账号验证码正确，密码为空]",
+  "time" : {
+    "start" : 1596270139323,
+    "stop" : 1596270160230,
+    "duration" : 20907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c01c94be585539d4",
+  "name" : "手机号第二位为2",
+  "time" : {
+    "start" : 1596269892337,
+    "stop" : 1596269903692,
+    "duration" : 11355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "752260d3022c7b1a",
+  "name" : "test_101_110[输入账号密码验证码都为空]",
+  "time" : {
+    "start" : 1596270000987,
+    "stop" : 1596270020925,
+    "duration" : 19938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52cbe12dba53f125",
+  "name" : "test_101_110[输入账号为空]",
+  "time" : {
+    "start" : 1596270088999,
+    "stop" : 1596270108650,
+    "duration" : 19651
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ad83fed357160e0",
+  "name" : "输入已注册账号",
+  "time" : {
+    "start" : 1596269958652,
+    "stop" : 1596269970057,
+    "duration" : 11405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "295b12611dc2337e",
+  "name" : "验证码设置错误：1234",
+  "time" : {
+    "start" : 1596269920413,
+    "stop" : 1596269939720,
+    "duration" : 19307
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "303bd4c68518a3f0",
+  "name" : "test_101_110[全部输入，输入账号不正确]",
+  "time" : {
+    "start" : 1596270186001,
+    "stop" : 1596270207939,
+    "duration" : 21938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56c367f31138175e",
+  "name" : "输入正确的账号密码验证码",
+  "time" : {
+    "start" : 1596270271864,
+    "stop" : 1596270299951,
+    "duration" : 28087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e7a4d7881530098",
+  "name" : "test_numlimit_301_305[num:100]",
+  "time" : {
+    "start" : 1596270374194,
+    "stop" : 1596270410016,
+    "duration" : 35822
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a45e3dea16038eea",
+  "name" : "输入密码为5位",
+  "time" : {
+    "start" : 1596269906499,
+    "stop" : 1596269917637,
+    "duration" : 11138
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c75d7ef4ce03d37",
+  "name" : "使用规定的格式正确注册",
+  "time" : {
+    "start" : 1596269972838,
+    "stop" : 1596269996657,
+    "duration" : 23819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23327d041f2d398b",
+  "name" : "test_101_110[全部输入，输入验证码不正确]",
+  "time" : {
+    "start" : 1596270238419,
+    "stop" : 1596270269252,
+    "duration" : 30833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cd9feb99bbeef9a",
+  "name" : "test_limit_306_307[num:0]",
+  "time" : {
+    "start" : 1596270492759,
+    "stop" : 1596270523808,
+    "duration" : 31049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4eccadfceec51dba",
+  "name" : "test_101_110[输入账号正确，密码验证码为空]",
+  "time" : {
+    "start" : 1596270111343,
+    "stop" : 1596270134295,
+    "duration" : 22952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6c9fdf1cbe6c9a9",
+  "name" : "test_101_110[全部输入，输入密码不正确]",
+  "time" : {
+    "start" : 1596270210817,
+    "stop" : 1596270235578,
+    "duration" : 24761
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6183aac3271291c",
+  "name" : "手机号第一位不为1",
+  "time" : {
+    "start" : 1596269876763,
+    "stop" : 1596269889916,
+    "duration" : 13153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d771086751c8dfc0",
+  "name" : "手机号输入12位",
+  "time" : {
+    "start" : 1596269862713,
+    "stop" : 1596269873915,
+    "duration" : 11202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ef20b4cdf8dcf8c",
+  "name" : "手机号输入10位",
+  "time" : {
+    "start" : 1596269848595,
+    "stop" : 1596269860192,
+    "duration" : 11597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d6968f86f50a46a",
+  "name" : "test_101_110[输入账号密码正确，验证码为空]",
+  "time" : {
+    "start" : 1596270163538,
+    "stop" : 1596270183199,
+    "duration" : 19661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff9ea38e067b7129",
+  "name" : "test_numlimit_301_305[num:2]",
+  "time" : {
+    "start" : 1596270337177,
+    "stop" : 1596270371354,
+    "duration" : 34177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d08c904bdcde0f30",
+  "name" : "test_101_110[输入账号验证码都为空]",
+  "time" : {
+    "start" : 1596270023739,
+    "stop" : 1596270043726,
+    "duration" : 19987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1ac9de46ffa3bab",
+  "name" : "test_101_110[输入账号密码都为空]",
+  "time" : {
+    "start" : 1596270060781,
+    "stop" : 1596270085853,
+    "duration" : 25072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
